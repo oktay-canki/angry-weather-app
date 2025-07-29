@@ -1,10 +1,14 @@
-import LocationDisplay from "@/components/geolocation/LocationDisplay";
+import LeftPanel from "@/components/common/LeftPanel";
+import RightPanel from "@/components/common/RightPanel";
 import { WeatherProvider } from "@/context/WeatherContext";
 
 export default function Home() {
   return (
     <WeatherProvider>
-      <LocationDisplay />
+      <div className="flex w-full h-full">
+        <LeftPanel />
+        <RightPanel />
+      </div>
     </WeatherProvider>
   );
 }

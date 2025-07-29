@@ -3,6 +3,9 @@
 import useGeolocation from "@/hooks/useGeolocation";
 import { GeoPosition, LocationDisplayData } from "@/types/geo";
 import { WeatherData } from "@/types/weather";
+import getMoodFromStats from "@/utils/getMoodFromStats";
+import getTimeOfDayFromData from "@/utils/getTimeOfDayFromData";
+import getWeatherThemeFromStats from "@/utils/getWeatherThemeFromData";
 import {
   createContext,
   ReactNode,
@@ -56,7 +59,8 @@ export const WeatherProvider = ({ children }: WeatherProviderProps) => {
         );
 
         if (!response.ok) {
-          throw new Error(`Fetch error: ${response.status}`);
+          setError(`Failed to fetch weather data, status: ${response.status}`);
+          return;
         }
 
         const data = await response.json();
@@ -65,7 +69,33 @@ export const WeatherProvider = ({ children }: WeatherProviderProps) => {
           country: data.sys.country,
           city: data.name,
         });
-        // setWeatherData(data); // TODO: set weather data and displayData
+
+        const weatherObj = data.weather[0];
+
+        const wd = {
+          stats: {
+            temperature: data.main.temp,
+            feelsLike: data.main.feels_like,
+            humidity: data.main.humidity,
+            wind: {
+              speed: data.wind.speed,
+              degree: data.wind.deg,
+            },
+            clouds: data.clouds.all,
+          },
+          description: weatherObj.description,
+          icon: weatherObj.icon,
+          theme: getWeatherThemeFromStats(
+            weatherObj.id,
+            data.main.temp,
+            data.wind.speed
+          ),
+          timeOfDay: getTimeOfDayFromData(weatherObj.icon),
+          mood: getMoodFromStats(data.main.temp, data.main.feels_like),
+        } as WeatherData;
+        console.log(wd);
+
+        setWeatherData(wd);
         setError(null);
       } catch (err) {
         if (err instanceof DOMException && err.name === "AbortError") {
