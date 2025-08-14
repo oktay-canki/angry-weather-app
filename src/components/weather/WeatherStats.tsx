@@ -1,7 +1,7 @@
 "use client";
 import { Cloudy, Droplets, ThermometerSun, Wind } from "lucide-react";
 import WeatherStatCard from "./WeatherStatCard";
-import { useWeather } from "@/hooks/useLocation";
+import { useWeather } from "@/hooks/useWeather";
 
 const WeatherStats = () => {
   const { weatherData } = useWeather();

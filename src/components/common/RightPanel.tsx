@@ -1,11 +1,13 @@
 import WeatherStats from "../weather/WeatherStats";
-import WeatherVisual from "../weather/WeatherVisual";
+import WeatherTV from "../weather/WeatherTV";
 
 const RightPanel = () => {
   return (
     <div className="flex flex-col h-dvh w-full relative">
       <WeatherStats />
-      <WeatherVisual />
+      <div className="w-full h-full p-8">
+        <WeatherTV />
+      </div>
     </div>
   );
 };

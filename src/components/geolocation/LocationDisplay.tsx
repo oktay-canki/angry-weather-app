@@ -1,6 +1,6 @@
 "use client";
 
-import { useWeather } from "@/hooks/useLocation";
+import { useWeather } from "@/hooks/useWeather";
 import { MapPin } from "lucide-react";
 
 function LocationDisplay() {

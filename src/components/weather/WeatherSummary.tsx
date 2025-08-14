@@ -1,6 +1,6 @@
 "use client";
 
-import { useWeather } from "@/hooks/useLocation";
+import { useWeather } from "@/hooks/useWeather";
 import { capitalizeWords } from "@/utils/common";
 import OpenWeatherIcon from "../common/OpenWeatherIcon";
 
