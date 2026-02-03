@@ -106,3 +106,94 @@ body {
   -moz-border-radius: 200px;
   z-index: 50;
 }
+
+/* Rain */
+
+/* individual raindrop */
+.drop {
+  position: absolute;
+  top: -20px;
+  width: 2px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform: rotate(10deg);
+}
+
+/* falling animation */
+@keyframes fall {
+  to {
+    transform: translateY(750px) rotate(10deg);
+  }
+}
+
+/* Thunder */
+.flash-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: white;
+  opacity: 0;
+  animation: flash 10s infinite;
+}
+
+@keyframes flash {
+  0%,
+  8%,
+  15%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  10% {
+    opacity: 0.1;
+  }
+}
+
+/* SNOW */
+.snow-particle {
+  position: absolute;
+  top: -10%;
+  animation: fall linear infinite;
+}
+
+/* ROTATION ONLY */
+.snowflake {
+  display: inline-block;
+  transform-origin: center center;
+  animation: snowflake-spin linear infinite;
+}
+
+@keyframes snowfall {
+  to {
+    transform: translateY(1000px);
+  }
+}
+
+@keyframes snowflake-spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+/* FOG */
+.fog {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 100%;
+  background: rgba(180, 180, 180, 0.8);
+  filter: blur(10px);
+  animation: fog-drift linear infinite;
+}
+
+@keyframes fog-drift {
+  0% {
+    transform: translate(-100%, 0%);
+  }
+  100% {
+    transform: translate(200%, 0%);
+  }
+}

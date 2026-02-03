@@ -3,7 +3,7 @@ import WeatherTheme from "@/enums/WeatherTheme";
 function getWeatherThemeFromStats(
   code: number,
   temp: number,
-  windSpeed: number
+  windSpeed: number,
 ): WeatherTheme {
   if (code >= 200 && code < 300) return WeatherTheme.THUNDER_STORM;
   if (code >= 300 && code < 400) return WeatherTheme.LIGHT_RAIN;

@@ -3,13 +3,13 @@ enum WeatherTheme {
   CLEAR,
   PARTLY_CLOUDY,
   CLOUDY,
+  HOT,
+  WINDY,
+  FOGGY,
   LIGHT_RAIN,
   HEAVY_RAIN,
   THUNDER_STORM,
   SNOW,
-  FOGGY,
-  WINDY,
-  HOT,
 }
 
 export default WeatherTheme;

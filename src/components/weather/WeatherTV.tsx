@@ -9,7 +9,7 @@ const WeatherTV = () => {
   const { weatherData } = useWeather();
 
   const { isPlaying, play, pause } = useWeatherAudio(
-    weatherData ? weatherData.theme : WeatherTheme.DEFAULT
+    weatherData && weatherData.theme ? weatherData.theme : WeatherTheme.DEFAULT,
   );
 
   const handleAudioClick = () => {

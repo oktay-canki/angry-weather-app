@@ -1,18 +1,16 @@
-import CloudDensity from "@/enums/CloudDensity";
 import Sun from "./Sun";
 import SunRays from "./SunRays";
 import Clouds from "./Clouds";
-import TimeOfDay from "@/enums/TimeOfDay";
+import { useWeather } from "@/hooks/useWeather";
+import getCloudDensityFromTheme from "@/utils/getCloudDensityFromTheme";
 
-type NormalWeatherSceneProps = {
-  timeOfDay?: TimeOfDay;
-  cloudDensity: CloudDensity;
-};
+const NormalWeatherScene = () => {
+  const { weatherData } = useWeather();
+  if (!weatherData) return <></>;
 
-const NormalWeatherScene = ({ cloudDensity }: NormalWeatherSceneProps) => {
   return (
     <div className="w-full h-full bg-gradient-to-b relative from-sky-200 to-blue-100 overflow-hidden">
-      <Clouds density={cloudDensity} />
+      <Clouds density={getCloudDensityFromTheme(weatherData.theme)} />
       <Sun />
       <SunRays />
     </div>

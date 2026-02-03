@@ -19,7 +19,8 @@ const densityMap = {
 const Clouds = ({ density, type }: CloudsProps) => {
   const clouds = Array.from({ length: densityMap[density] });
 
-  if (density === CloudDensity.CLEAR) return <></>;
+  if ([CloudDensity.DEFAULT, CloudDensity.CLEAR].includes(density))
+    return <></>;
 
   return (
     <div className="absolute w-full flex justify-evenly top-">
