@@ -1,0 +1,72 @@
+{
+  "CLEAR": [
+    "Breaking: sun shows up again and refuses to calm down",
+    "Local sky aggressively blue for no good reason",
+    "Experts confirm this heat did not need to happen",
+    "Sunglasses now mandatory or suffer the consequences",
+    "Clouds officially absent and completely unapologetic"
+  ],
+  "PARTLY_CLOUDY": [
+    "Sun and clouds locked in an irritating power struggle",
+    "Weather app says mostly fine but clearly lying",
+    "Clouds drifting by just to be annoying",
+    "Sky still unable to make up its mind",
+    "Partly cloudy and emotionally exhausting"
+  ],
+  "CLOUDY": [
+    "Sun missing again and nobody knows why",
+    "Clouds blocking the sky out of pure spite",
+    "Sky wearing the same gray mood all day",
+    "Weather described as dull and unhelpful",
+    "Clouds continue refusing to explain themselves"
+  ],
+  "HOT": [
+    "Sun apparently trying to ruin everyone’s day",
+    "Pavement now hot enough to punish mistakes",
+    "Weather app suggests suffering quietly",
+    "Ice cubes losing the battle immediately",
+    "Shade becoming rare and highly contested"
+  ],
+  "WINDY": [
+    "Wind aggressively attacking everyone outside",
+    "Hats disappearing with zero warning",
+    "Trees flailing around like they’ve had enough",
+    "Wind briefly apologizes then gets worse",
+    "Weather best described as hostile"
+  ],
+  "FOGGY": [
+    "Visibility reduced to frustration and regret",
+    "Fog rolls in and refuses to leave",
+    "Entire neighborhood now unsettling for no reason",
+    "Fog has no idea where it is and doesn’t care",
+    "Weather encourages slow movement and patience you don’t have"
+  ],
+  "LIGHT_RAIN": [
+    "Rain falling just enough to be irritating",
+    "Clouds refusing to commit to anything useful",
+    "Weather barely raining but still ruining plans",
+    "Ground damp for absolutely no benefit",
+    "Rain insists it’s not a problem"
+  ],
+  "HEAVY_RAIN": [
+    "Rain completely overdoing it today",
+    "Streets filling up faster than expected",
+    "Clouds dumping everything at once out of spite",
+    "Umbrellas no longer sufficient",
+    "Weather app simply gives up explaining"
+  ],
+  "THUNDER_STORM": [
+    "Thunder loudly demanding attention again",
+    "Lightning flashing like it owns the place",
+    "Sky slamming doors repeatedly",
+    "Storm clearly upset about something",
+    "Weather volume set far too high"
+  ],
+  "SNOW": [
+    "Snow falling aggressively while pretending to be calm",
+    "Cold air making everyone miserable on purpose",
+    "Roads becoming dangerous without warning",
+    "Weather app advises extreme caution and low expectations",
+    "Snowflakes landing everywhere they’re not wanted"
+  ]
+}

@@ -18,7 +18,14 @@ const WeatherTV = () => {
   };
 
   return (
-    <div className="weather-tv">
+    <div className="weather-tv relative">
+      {/* CHANNEL LOGO ON  TOP RIGHT */}
+      <div className="absolute right-8 top-8 z-[100] flex flex-col flex-wrap bg-slate-950 text-white items-center justify-center p-2">
+        <span className="text-2xl font-bold ">ANGRY</span>
+        <hr className="w-10/12" />
+        <span className="text-xl">WEATHER</span>
+      </div>
+
       <WeatherVisual />
       <div className="w-full pt-2 flex justify-between item-center">
         <button

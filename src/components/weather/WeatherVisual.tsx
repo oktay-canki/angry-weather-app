@@ -2,6 +2,7 @@ import NormalWeatherScene from "../weatherVisuals/NormalWeatherScene";
 import { useWeather } from "@/hooks/useWeather";
 import WeatherTheme from "@/enums/WeatherTheme";
 import BadWeatherScene from "../weatherVisuals/BadWeatherScene";
+import SlidingNewsBanner from "./SlidingNewsBanner";
 
 const WeatherVisual = () => {
   const { weatherData } = useWeather();
@@ -24,8 +25,9 @@ const WeatherVisual = () => {
   }
 
   return (
-    <div className="w-full h-full bg-pink-500">
+    <div className="w-full h-full bg-pink-500 relative">
       {getSceneFromTheme(weatherData.theme)}
+      <SlidingNewsBanner />
     </div>
   );
 };

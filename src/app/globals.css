@@ -197,3 +197,23 @@ body {
     transform: translate(200%, 0%);
   }
 }
+
+/* news banner */
+.ticker {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background: #b91c1c;
+  color: white;
+}
+
+.ticker-track {
+  display: inline-flex;
+  will-change: transform;
+}
