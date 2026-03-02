@@ -46,7 +46,11 @@ function SlidingNewsBanner() {
         {[...news, ...news].map((story, idx) => (
           <React.Fragment key={idx}>
             <span>{story}</span>
-            <span className="text-2xl font-bold tacking-tighter">NEWS</span>
+            <div className="flex flex-col items-center justify-center h-15">
+              <span className="-mb-1">ANGRY</span>
+              <hr className="bg-white w-full" />
+              <span className="text-xl font-bold -mt-1">NEWS</span>
+            </div>
           </React.Fragment>
         ))}
       </div>
