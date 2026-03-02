@@ -1,0 +1,122 @@
+{
+  "CLEAR": [
+    [
+      "CLEAR SKY DETECTED AND IT IS UNACCEPTABLY CONFIDENT ABOUT ITSELF.",
+      "Wear sunglasses immediately because the sun is behaving aggressively and will attack your eyeballs without hesitation.",
+      "You may go outside and pretend to enjoy existence, but do not trust the sky because it is clearly planning something."
+    ],
+    [
+      "SUN APPARENTLY DECIDED TO SHOW UP AND RUIN ALL PLANS.",
+      "Light clothing is mandatory unless you want to melt under relentless solar judgment.",
+      "Feel free to take a walk, but the sun will glare at you with passive-aggressive intensity the whole time."
+    ]
+  ],
+  "PARTLY_CLOUDY": [
+    [
+      "SUN AND CLOUDS LOCKED IN AN IRRITATING POWER STRUGGLE ABOVE YOUR HEAD.",
+      "Dress in layers because the sky cannot decide whether to roast or freeze you.",
+      "Go for a casual stroll, but be ready to dodge both sudden sunlight and grumpy clouds."
+    ],
+    [
+      "THE SKY IS CONFUSED AND THINKS YOU SHOULD TOO.",
+      "Carry a jacket and sunglasses simultaneously; yes, it is that indecisive today.",
+      "Attempt outdoor activities at your own risk; expect unpredictable bursts of mood swings from the atmosphere."
+    ]
+  ],
+  "CLOUDY": [
+    [
+      "SUN MISSING AGAIN AND NOBODY KNOWS WHY.",
+      "Heavy clothing advised because the gray sky is passive-aggressively cold and judgmental.",
+      "Feel free to stay outside and glare at the sky, but don’t expect it to care about your discomfort."
+    ],
+    [
+      "CLOUDS CONTINUE REFUSING TO EXPLAIN THEMSELVES.",
+      "Bundle up because the atmosphere has chosen indifference as its weapon.",
+      "Consider reading indoors if you value warmth, otherwise go outside and experience the gray melancholy firsthand."
+    ]
+  ],
+  "HOT": [
+    [
+      "SUN APPARENTLY TRYING TO RUIN EVERYONE’S DAY.",
+      "Wear as little as legally possible to avoid spontaneous combustion.",
+      "Activities should be strictly limited to seeking shade and plotting revenge against the sun."
+    ],
+    [
+      "THE AIR ITSELF HAS JOINED THE HEAT CONSPIRACY.",
+      "Dress in breathable fabrics unless you enjoy being punished by temperatures.",
+      "Try outdoor tasks quickly, but accept that every movement is an exercise in suffering."
+    ]
+  ],
+  "WINDY": [
+    [
+      "WIND AGGRESSIVELY ATTACKING EVERYONE OUTSIDE.",
+      "Secure hats and loose clothing or risk being humiliated by physics.",
+      "Proceed outdoors only if you like running a gauntlet against invisible forces."
+    ],
+    [
+      "TREES FLAILING AROUND LIKE THEY’VE HAD ENOUGH OF HUMANITY.",
+      "Heavy jackets and scarves required to survive airborne leaf ambushes.",
+      "Consider staying inside, but if you must venture out, brace yourself for the chaos of rogue gusts."
+    ]
+  ],
+  "FOGGY": [
+    [
+      "VISIBILITY REDUCED TO FRUSTRATION AND REGRET.",
+      "Wear reflective clothing to prevent accidental collisions with mystery objects.",
+      "Activities outdoors are now an extreme sport; walk carefully unless you enjoy surprise encounters."
+    ],
+    [
+      "FOG HAS NO IDEA WHERE IT IS AND DOESN’T CARE.",
+      "Dress warmly but prepare for sudden wetness and general confusion.",
+      "Move slowly outside, because every step could be an existential adventure through the mist."
+    ]
+  ],
+  "LIGHT_RAIN": [
+    [
+      "RAIN FALLING JUST ENOUGH TO BE IRRITATING.",
+      "Wear waterproof clothing, or suffer the consequences of mild precipitation shame.",
+      "Go outside if you must, but prepare for the relentless tease of damp conditions."
+    ],
+    [
+      "CLOUDS REFUSING TO COMMIT TO ANYTHING USEFUL.",
+      "Bring a raincoat and attitude to counter the sky’s half-hearted attempts at ruin.",
+      "Casual activities outside will feel slightly sabotaged, but it’s technically still survivable."
+    ]
+  ],
+  "HEAVY_RAIN": [
+    [
+      "RAIN COMPLETELY OVERDOING IT TODAY.",
+      "Armor yourself with full rain gear because umbrellas are now obsolete.",
+      "Outdoor activities are a disaster zone; proceed only if you enjoy heroic suffering."
+    ],
+    [
+      "CLOUDS DUMPING EVERYTHING AT ONCE OUT OF SPITE.",
+      "Waterproof clothing required, plus emotional preparation for constant dampness.",
+      "Travel outside only if you desire an impromptu swimming lesson without the pool."
+    ]
+  ],
+  "THUNDER_STORM": [
+    [
+      "THUNDER LOUDLY DEMANDING ATTENTION AGAIN.",
+      "Wear insulated clothing and prepare for shocks both literal and emotional.",
+      "Outdoor activities are officially on hold; stay inside unless seeking dramatic danger."
+    ],
+    [
+      "LIGHTNING FLASHING LIKE IT OWNS THE PLACE.",
+      "Avoid metal and dress like a cautious ninja to survive nature’s temper tantrum.",
+      "Do not attempt leisurely activities unless you want a personal electric performance."
+    ]
+  ],
+  "SNOW": [
+    [
+      "SNOW FALLING AGGRESSIVELY WHILE PRETENDING TO BE CALM.",
+      "Bundle up like a snow warrior or risk frostbite and humiliation.",
+      "Outdoor fun is acceptable only if you enjoy shivering and questionable transportation conditions."
+    ],
+    [
+      "COLD AIR MAKING EVERYONE MISERABLE ON PURPOSE.",
+      "Heavy coats, gloves, and boots are mandatory; fashion is irrelevant under assault.",
+      "You may venture out to shovel or stumble through snow, but know the weather is laughing at you."
+    ]
+  ]
+}
