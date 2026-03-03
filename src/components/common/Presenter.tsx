@@ -12,7 +12,7 @@ const Presenter = () => {
 
   return (
     <div className="flex flex-col gap-4 w-full h-full p-4 pb-8">
-      <div className="flex flex-1 flex-col gap-4 items-end justify-end bg-white rounded-md border-accent border-2 p-4 overflow-auto min-h-40">
+      <div className="flex flex-1 flex-col gap-4 items-end justify-end overflow-x-hidden overflow-y-scroll p-4 min-h-40">
         <Message text={messageArray[0]} delay={200} />
         <Message text={messageArray[1]} delay={400} />
         <Message text={messageArray[2]} delay={600} />

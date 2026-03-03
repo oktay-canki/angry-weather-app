@@ -1,7 +1,7 @@
 import WeatherTheme from "@/enums/WeatherTheme";
 import newsData from "@/messages-data.json";
 
-function getNewsFromTheme(theme: WeatherTheme) {
+function getMessagesFromTheme(theme: WeatherTheme) {
   let allMessages = newsData.CLEAR;
   if (theme === WeatherTheme.SNOW) allMessages = newsData.SNOW;
   if (theme === WeatherTheme.PARTLY_CLOUDY)
@@ -20,4 +20,4 @@ function getNewsFromTheme(theme: WeatherTheme) {
   return allMessages[rndIdx];
 }
 
-export default getNewsFromTheme;
+export default getMessagesFromTheme;
