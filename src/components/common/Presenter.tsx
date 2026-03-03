@@ -24,6 +24,7 @@ const Presenter = () => {
           className="w-full h-60 object-cover"
           width={640}
           height={640}
+          loading="eager"
         />
         <div className="bg-white absolute bottom-0 right-0 px-6 py-1 border-t-accent border-t-4 rounded-tl-full font-bold">
           Angry Caster Jr.
